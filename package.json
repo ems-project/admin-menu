@@ -1,0 +1,24 @@
+{
+  "name": "@elasticms/admin-menu",
+  "version": "1.0.0",
+  "description": "Used to generated admin menu in elasitcms Skeleton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ems-project/admin-menu.git"
+  },
+  "keywords": [
+    "elasticms",
+    "skeleton",
+    "admin-menu"
+  ],
+  "author": "Mathieu De Keyzer <mathieu@dekeyzer.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ems-project/admin-menu/issues"
+  },
+  "homepage": "https://github.com/ems-project/admin-menu#readme"
+}
