@@ -1,6 +1,6 @@
 {
   "name": "@elasticms/admin-menu",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Used to generated admin menu in elasitcms Skeleton",
   "main": "index.js",
   "scripts": {
