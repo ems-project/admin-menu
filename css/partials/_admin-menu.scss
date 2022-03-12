@@ -1,18 +1,20 @@
+
 .admin-menu-wrapper {
 	content: '';
 	display:inline-block;
 	a {
-		padding-right:22px !important;
 		&.emsch {
-			background-image: icon(emsch, '#FFFFFF', '16', '16');
-			background-repeat: no-repeat;
-			background-position: 99% 50%;
-		}
-		&:after{
-			content:none !important;
-			margin-left:0 !important;
+      color: $admin-menu-font-color;
 		}
 	}
 
 	&.hide {display: none;}
+
+  i.ems-icon {
+    background-image: icon(emsch, $admin-menu-icon-fill, $admin-menu-icon-size, $admin-menu-icon-size);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: $admin-menu-icon-size+0px;
+    height: $admin-menu-icon-size+0px;
+  }
 }
