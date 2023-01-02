@@ -14,7 +14,7 @@ $admin-menu-font-color: #000000;
 
 ```
 import adminMenu from './js/admin-menu';
-adminMenu('esm_demo_admin', '<i class="ems-icon"></i> Back to admin');
+adminMenu('esm_demo_admin', '<i class="ems-icon"></i> Back to admin', 'btn btn-sm emsch');
 ```
 
 Parameters:
@@ -23,3 +23,4 @@ Parameters:
     - '_blank': in a new tab (default value)
     - 'ems_project_x: in a named tab
   - Link's inner HTML
+  - Class CSS to apply to the admin menu
