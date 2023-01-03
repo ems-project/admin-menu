@@ -24,3 +24,16 @@ Parameters:
     - 'ems_project_x: in a named tab
   - Link's inner HTML
   - Class CSS to apply to the admin menu
+
+
+## Release
+
+ * Safety Checks
+   * `git pull`
+   * `git status`
+   * `npm ci`
+   * `npm audit fix --force`
+ * Create version
+   * Update version in package.json
+   * `npm update`
+ 
