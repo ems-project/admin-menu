@@ -1,7 +1,7 @@
 /**
  * Show admin edit button in FE
  */
-export default function showAdminMenu(targetAttr = '_blank', innerHTML = 'Back to ems') {
+export default function showAdminMenu(targetAttr = '_blank', innerHTML = 'Back to ems', btnClass = 'btn btn-primary btn-sm emsch') {
     const targets = document.querySelectorAll('[data-ems-key]');
     [].forEach.call(targets, function(target, index) {
 
@@ -12,7 +12,7 @@ export default function showAdminMenu(targetAttr = '_blank', innerHTML = 'Back t
         const admBtn = document.createElement('a');
         admBtn.innerHTML = innerHTML;
         admBtn.id = 'admin-menu-' + index;
-        admBtn.setAttribute('class', 'btn btn-primary btn-xs emsch');
+        admBtn.setAttribute('class', btnClass);
         admBtn.type = 'button';
         admBtn.href  = url +'/data/revisions/'+ type +':'+ ouuid;
         if (typeof targetAttr === 'string' || targetAttr instanceof String) {
