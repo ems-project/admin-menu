@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/ems-project/admin-menu#readme",
   "dependencies": {
-    "standard": "^17.0.0"
+    "standard": "^16.0.3"
   }
 }
