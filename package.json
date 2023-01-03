@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ems-project/admin-menu/issues"
   },
-  "homepage": "https://github.com/ems-project/admin-menu#readme"
+  "homepage": "https://github.com/ems-project/admin-menu#readme",
+  "dependencies": {
+    "standard": "^17.0.0"
+  }
 }
