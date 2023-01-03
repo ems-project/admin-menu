@@ -36,4 +36,5 @@ Parameters:
  * Create version
    * Update version in package.json
    * `npm update`
+   * Release ii on GitHub
  
